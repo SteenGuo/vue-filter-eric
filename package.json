@@ -1,0 +1,27 @@
+{
+  "name": "vue-filter-eric",
+  "version": "1.0.0",
+  "description": "vue filter",
+  "main": "lib/vue-filter-eric.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "filter"
+  ],
+  "author": "eric_g",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SteenGuo/vue-filter-eric/issues"
+  },
+  "homepage": "https://github.com/SteenGuo/vue-filter-eric#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
