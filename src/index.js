@@ -6,9 +6,9 @@ import object from "./object";
 import string from "./string";
 
 let filters = { ...array, ...date, ...math, ...number, ...object, ...string };
-let { dateFormat, thousand, getLabelFromValue, strReplace,stringFormat } = filters;
+let { dateFormat, thousand, getLabelByValue, strReplace,stringFormat } = filters;
 
-export { dateFormat, thousand, getLabelFromValue, strReplace,stringFormat };
+export { dateFormat, thousand, getLabelByValue, strReplace,stringFormat };
 
 export default {
   install: function(Vue) {
