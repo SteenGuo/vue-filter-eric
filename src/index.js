@@ -1,10 +1,10 @@
-import array from "./array";
-import date from "./date";
-import math from "./math";
-import number from "./number";
-import object from "./object";
-import string from "./string";
-import others from "./others";
+import * as array from "./array";
+import * as date from "./date";
+import * as math from "./math";
+import * as number from "./number";
+import * as object from "./object";
+import * as string from "./string";
+import * as others from "./others";
 
 export * from "./array";
 export * from "./date";

@@ -10,7 +10,7 @@
  * @param {Number} type 替换方式
  * @param {String} replaceText 替换的字符（默认*）
  */
-function strReplace(str, regArr, type=0, replaceText = "*") {
+export function strReplace(str, regArr, type = 0, replaceText = "*") {
   var regtext = "",
     Reg = null;
   if (regArr.length === 3 && type === 0) {
@@ -48,11 +48,8 @@ function strReplace(str, regArr, type=0, replaceText = "*") {
  * @param {Number} size
  * @param {String} delimiter
  */
-function strFormat(str, size=3, delimiter=',') {
+export function strFormat(str, size = 3, delimiter = ",") {
   var regText = "\\B(?=(\\w{" + size + "})+(?!\\w))";
   var reg = new RegExp(regText, "g");
   return str.replace(reg, delimiter);
 }
-
-export { strReplace, strFormat }
-export default { strReplace, strFormat };

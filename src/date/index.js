@@ -6,7 +6,7 @@ const padStart = function (input, length, symbol = " ") {
   return str;
 };
 
-const dateFormat = function (_date, _format = "YYYY-MM-DD") {
+export function dateFormat(_date, _format = "YYYY-MM-DD") {
   let date = _date instanceof Date ? _date : new Date(_date);
   return _format
     .replace("YYYY", date.getFullYear())
@@ -25,7 +25,4 @@ const dateFormat = function (_date, _format = "YYYY-MM-DD") {
     .replace("s", date.getSeconds())
     .replace("A", date.getHours() < 12 ? "AM" : "PM")
     .replace("a", date.getHours() < 12 ? "am" : "pm");
-};
-
-export { dateFormat };
-export default { dateFormat };
+}
