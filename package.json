@@ -1,6 +1,6 @@
 {
   "name": "vue-filter-eric",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "vue filter",
   "main": "lib/vue-filter-eric.js",
   "files": [

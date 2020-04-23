@@ -188,10 +188,10 @@ Vue.filter("thousand", thousand);
       <td>String | '*'</td>
     </tr>
     <tr>
-      <td rowspan=2>strReplace</td>
+      <td rowspan=2>strFormat</td>
       <td>size</td>
       <td>Number | 3</td>
-      <td>格式化处理字符串,stringFormat('1234asda567asd890',4,'-') //"1-234a-sda5-67as-d890"</td>
+      <td>格式化处理字符串,strFormat('1234asda567asd890',4,'-') //"1-234a-sda5-67as-d890"</td>
     </tr>
     <tr>
       <td>delimiter</td>

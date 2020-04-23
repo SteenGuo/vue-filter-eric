@@ -1,3 +1,2 @@
-const array = {};
-
-export default array;
+export {};
+export default {};

@@ -48,10 +48,11 @@ function strReplace(str, regArr, type=0, replaceText = "*") {
  * @param {Number} size
  * @param {String} delimiter
  */
-function stringFormat(str, size=3, delimiter=',') {
+function strFormat(str, size=3, delimiter=',') {
   var regText = "\\B(?=(\\w{" + size + "})+(?!\\w))";
   var reg = new RegExp(regText, "g");
   return str.replace(reg, delimiter);
 }
 
-export default { strReplace, stringFormat };
+export { strReplace, strFormat }
+export default { strReplace, strFormat };
